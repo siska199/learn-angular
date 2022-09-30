@@ -1,0 +1,16 @@
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+}
+
+li{
+    width : 15rem;
+}
+
+li p{
+    text-overflow: ellipsis;
+    
+}

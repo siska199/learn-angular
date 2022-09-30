@@ -1,0 +1,8 @@
+<h1>Programming book list:</h1>
+<h1>Amout that add to cart {{cart.length}}</h1>
+<ul >
+    <ng-container *ngFor="let sigleBook of books">
+        <app-book (bookEmitter)="addToCart($event)" [book]="sigleBook"></app-book>
+    </ng-container>
+</ul>
+
